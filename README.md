@@ -1,6 +1,6 @@
 # JPX
 kaggle: https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction/data
-## data clean
+## data clean (plot by [plotly]([url](https://plotly.com/python/)))
 #### Candlestick image
 ```
 fig = go.Figure(data=[go.Candlestick(
@@ -16,7 +16,6 @@ fig.update_layout(
 fig.show()
 ```
 ![Candlestick img](asset/candle_1.png)
-
 #### Lines image
 ```
 fig = px.line(six_stocks, facet_col='Stock', facet_col_wrap=2)
