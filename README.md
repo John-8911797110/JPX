@@ -1,7 +1,7 @@
 # JPX
 kaggle: https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction/data
 ## data clean 
-**(plot by [plotly]([[url](https://plotly.com/python/)]))**
+**(plot by [plotly](https://plotly.com/python/))**
 #### Candlestick image
 ```
 fig = go.Figure(data=[go.Candlestick(
